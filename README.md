@@ -79,7 +79,7 @@ O resultado deve ser:
 ## Funcionalidades
  
 ### Obrigatórias
-  - Construir uma visualização com as viagens de determinado veículo. Caso não faça a exibição dos veículos, pode considerar o id do veículo fixo com valor 1.
+  - Construir uma visualização com as viagens de determinado veículo. Caso não faça a exibição dos veículos, pode consultar os disponíveis na api e deixar fixo no código ao entregar.
 
 ### Opcionais
   - Construir uma visualização de veículos em que seja possível pressionar/clicar sobre um veículo e visualizar as suas viagens.
