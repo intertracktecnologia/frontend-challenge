@@ -1,4 +1,4 @@
-# Teste Front-end / Mobile Intertrack
+# Desafio de código Front-end / Mobile
 O objetivo deste teste é avaliar conhecimento e experiência com Front-end e/ou Mobile.
 
 ## Instruções
