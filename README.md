@@ -26,7 +26,7 @@ Para isso, você terá acesso a alguns endpoints os quais conseguirá recuperar:
 
 Veículos:
 
-`GET /api/vehicles`
+`GET http://www15.itrack.com.br/recruitmentpositionapi/vehicles`
 ```
 [{
   id: number
@@ -39,7 +39,7 @@ Veículos:
 
 Posições:
 
-`GET /api/vehicles/:id/positions`
+`GET http://www15.itrack.com.br/recruitmentpositionapi/vehicles/:id/positions`
 ```
 Path Params:
 - id: Identificador do veículo
