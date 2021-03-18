@@ -14,15 +14,17 @@ O objetivo deste teste é avaliar conhecimento e experiência com Front-end e/ou
 Desenvolver uma aplicação Web ou Mobile que exiba as viagens de determinado veículo.
 
 Uma viagem deve possuir:
-  
-  - vehicleId
-  - initialDateTime
-  - finalDateTime
-  - initialAddress
-  - finalAddress
-  - distanceInMeters (Diferença entre hodômetro final e inicial)
-  - totalTimeInMinutes
-
+```
+{
+  vehicleId: number;
+  initialDatetime: number (timestamp em milisegundos) // Data da primeira posição da viagem
+  finalDatetime: number (timestamp em milisegundos) // Data da última posição da viagem
+  initialAddress: string // Endereço da primeira posição da viagem
+  finalAddress: string // Endereço da última posição da viagem
+  distanceInMeters: number // Distância total da viagem em metros
+  totalTimeInMinutes: number // Tempo total da viagem
+}
+```
 Para isso, você terá acesso a alguns endpoints os quais conseguirá recuperar:
 
 Veículos:
@@ -81,6 +83,7 @@ O resultado deve ser:
  
 ### Obrigatórias
   - Construir uma visualização com as viagens de determinado veículo. Caso não faça a exibição dos veículos, pode consultar os disponíveis na api e deixar fixo no código ao entregar.
+  - OBS: Exibir os campos da viagem listados nas especificações técnicas (exceto o id do veículo)
 
 ### Opcionais
   - Construir uma visualização de veículos em que seja possível pressionar/clicar sobre um veículo e visualizar as suas viagens.
